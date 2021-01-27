@@ -6,11 +6,12 @@
 
 class Rectangle(object):
     def __init__(self, length, width):
-        self.length=length
-        self.width=width
+        self.length = length
+        self.width = width
     
     def area(self):
         return self.length*self.width
 
-Rect1=Rectangle(5, 10)
+Rect1 = Rectangle(5, 10)
 print(Rect1.area())
+
