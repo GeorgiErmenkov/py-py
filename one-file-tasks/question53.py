@@ -14,4 +14,3 @@ class Rectangle(object):
 
 Rect1 = Rectangle(5, 10)
 print(Rect1.area())
-

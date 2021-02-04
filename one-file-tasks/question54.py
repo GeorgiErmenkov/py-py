@@ -23,11 +23,9 @@ class Square(Shape):
         return self.length**2
 
 randomShape = Shape()
-Squary_McSquare=Square(10)
+Squary_McSquare = Square(10)
+
 print(randomShape.area())
 print(Squary_McSquare.area())
 Squary_McSquare.length = 5
 print(Squary_McSquare.area())
-
-
-
