@@ -7,10 +7,10 @@ import math
 class Circle(object):
     def __init__(self, radius = 1):
         self.radius=radius
-
+    
     def circle_area(self):
         return Circle.pi()*(self.radius**2)
-
+    
     @staticmethod
     def pi():
         return math.pi
